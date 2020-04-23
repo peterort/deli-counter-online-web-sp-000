@@ -14,8 +14,8 @@ end
 def take_a_number(array, name)
   name = gets.strip
   if array == []
-    array = name
+    array(name) = name
   else
-    array = array << name
+    array = array(name) << name
   end
 end
