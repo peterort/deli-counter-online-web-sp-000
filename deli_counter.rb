@@ -11,7 +11,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, number)
+def take_a_number(array, name)
   if array == []
     array = gets.chomp
   else
