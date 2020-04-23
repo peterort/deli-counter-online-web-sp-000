@@ -9,5 +9,4 @@ def line(array)
   end
   puts "The line is currently: #{array.join(" ")}"
   end
-
 end
