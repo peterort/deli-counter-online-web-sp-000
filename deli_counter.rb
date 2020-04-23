@@ -5,7 +5,7 @@ def line(person)
     puts "The line is currently empty."
   else
     person.each do |position|
-    puts "The line is currently: #{person.each_with_index}. #{person}"
+    puts "The line is currently: #{person.map}. #{person}"
   end
 
   end
