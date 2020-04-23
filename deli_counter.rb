@@ -1,11 +1,12 @@
 # Write your code here.
 
 def line(person)
-  if person != []
-    puts "The line is currently #{person.size+1}"
+  if person == []
+    puts "The line is currently empty."
+  else
+    puts "The line is currently: #{person.size-1}"
   #shows current place in line
-  #if nobody in line,
-  else puts "The line is currently empty."
+
   end
 
 end
