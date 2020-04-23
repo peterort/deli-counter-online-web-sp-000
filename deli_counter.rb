@@ -12,5 +12,6 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  name = gets.strip
 
 end
