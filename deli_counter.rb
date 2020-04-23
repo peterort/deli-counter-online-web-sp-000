@@ -13,7 +13,7 @@ end
 
 def take_a_number(array, number)
   if array == []
-    array << gets.chomp
+    array = gets.chomp
   else
     puts "nope"
   end
