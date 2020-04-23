@@ -16,9 +16,8 @@ def take_a_number(array, name)
     array << name
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    array << name
-    array_index = array.index
-    place_in_line = array_index.to_i + 1
+    array.each_with_index do |name, index|
+      array[index] = "#{index.to_i + 1}. #{name}"
     puts "Welcome, #{name}. You are number #{place_in_line} in line."
   end
 
