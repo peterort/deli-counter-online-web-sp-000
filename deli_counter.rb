@@ -15,5 +15,5 @@ def take_a_number(array, name)
   name = gets.strip
   if array == []
     array = name
-
+  end
 end
