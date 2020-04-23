@@ -13,6 +13,6 @@ end
 
 def take_a_number(array, name)
     array << name
-    line_number = array.size + 1
+    line_number = array.size
     puts "Welcome, #{name}. You are number #{line_number} in line."
 end
