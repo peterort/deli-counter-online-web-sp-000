@@ -18,7 +18,7 @@ def take_a_number(array, name)
   else
     array << name
     place_in_line = array.index
-    puts "Welcome, #{name}. You are number #{place_in_line.to_i + 1} in line."
+    puts "Welcome, #{name}. You are number #{place_in_line_to.i + 1} in line."
   end
 
 end
