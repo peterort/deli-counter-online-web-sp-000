@@ -6,5 +6,6 @@ def line(person)
   #shows current place in line
   #if nobody in line,
   else puts "The line is currently empty."
+  end
 
 end
