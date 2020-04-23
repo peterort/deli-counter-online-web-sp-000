@@ -15,5 +15,6 @@ def take_a_number(array, number)
   if array == []
     array << gets.strip
   else
+    puts "nope"
   end
 end
