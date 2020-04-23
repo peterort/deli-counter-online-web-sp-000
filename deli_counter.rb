@@ -6,6 +6,7 @@ def line(person)
   else
     person.each do |position|
     puts "The line is currently: #{person.size}. #{person}"
+  end
 
   end
 
