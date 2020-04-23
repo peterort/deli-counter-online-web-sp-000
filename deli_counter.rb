@@ -4,7 +4,7 @@ def line(person)
   if person == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{person.size-1}. #{person}"
+    puts "The line is currently: #{person.size-1}"
   #shows current place in line
 
   end
