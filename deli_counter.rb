@@ -1,13 +1,13 @@
 # Write your code here.
 
-def line(person)
-  if person == []
+def line(array)
+  if array == []
     puts "The line is currently empty."
   else
-    person.each do |position|
-    puts "The line is currently: #{person.find_index}. #{person}"
+    array.each_with_index do |name, index|
+      array[index] = "#{index.to_i + 1}. #{name}"
   end
-
+  puts "The line is currently: #{array.join(" ")}"
   end
 
 end
