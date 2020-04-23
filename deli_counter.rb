@@ -20,5 +20,6 @@ def take_a_number(array, name)
       array[index] = "#{index.to_i + 1}. #{name}"
     puts "Welcome, #{name}. You are number #{place_in_line} in line."
   end
+  end
 
 end
